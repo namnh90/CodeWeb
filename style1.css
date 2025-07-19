@@ -1,0 +1,166 @@
+.box-cover {
+    width: 1440px;
+    position: relative;
+    height: 1229px;
+    top: 0px;
+}
+
+.box-bottom-black {
+    background-color: #363032;
+    position: absolute;
+    bottom: 0px;
+    height: 472px;
+    width: 1440px;
+}
+
+.box-bottom-white {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    height: 592px;
+    width: 1440px;
+}
+
+.oval-middle-milk-tea {
+    background-color: #ECDAC4;
+    position: absolute;
+    left: 286px;
+    top: -94px;
+    border-radius: 80px;
+    width: 868px;
+    height: 188px;
+}
+
+.pic-coffee-1 {
+    position: absolute;
+    width: 312px;
+    height: 312px;
+    top: 280px;
+    left: 1040px;
+    border-radius: 100%;
+    object-fit: cover;
+    z-index: 100;
+}
+
+.pic-coffee-2 {
+    position: absolute;
+    width: 440px;
+    height: 440px;
+    top: 0px;
+    left: 948px;
+    border-radius: 100%;
+    z-index: 99;
+    object-fit: cover;
+}
+
+.pop-up-box {
+    position: absolute;
+    bottom: 472px;
+    background-color: whitesmoke;
+    width: 465px;
+    height: 436px;
+    left: 487px;
+    border-radius: 5%;
+    z-index: 1;
+}
+.close-button
+{
+    position:absolute;
+    width: 24px;
+    height: 24px;
+    top: 10px;
+    left:431px;
+    z-index: 1000;
+    color:white;
+    font-weight: bold;
+    background-color: gray;
+    text-align: center;
+    border-radius: 100%;
+    padding: 2px
+}
+
+.pop-up-inner {
+    background-color: gray;
+    position: absolute;
+    top: 36px;
+    left: 41px;
+    border-radius: 12px;
+    z-index: 3;
+    width: 385px;
+    height: 158px;
+
+}
+
+.box-text-below-pop-up-inner {
+
+    position: absolute;
+    top: 218px;
+    left: 41px;
+    z-index: 3;
+    width: 385px;
+    height: 54px;
+}
+
+.box-text-below-pop-up-inner1 {
+    position: absolute;
+    top: 296px;
+    left: 41px;
+    z-index: 3;
+    width: 385px;
+    height: 104px;
+}
+
+.text-below-pop-up-inner1 {
+
+    position: absolute;
+    top: 0px;
+    left: 116.5px;
+    z-index: 3;
+    width: 152px;
+    height: 24px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px
+}
+
+.text-below-pop-up-inner2 {
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 3;
+    width: 385px;
+    height: 22px;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px
+}
+
+.input-below-pop-up-inner1 {
+    height: 16px;
+    width: 357px;
+    top: 0px;
+    position: absolute;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: gray;
+    padding: 14px;
+}
+
+.input-below-pop-up-inner2 {
+    height: 44px;
+    width: 385px;
+    bottom: 0px;
+    position: absolute;
+    border-radius: 8px;
+    border-width: 1px;
+    background-color: #4F4F4F;
+    color: white
+}

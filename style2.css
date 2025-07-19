@@ -1,0 +1,259 @@
+@import "tailwindcss";
+.cover-web-box
+{
+    position: relative;
+    width: 1603px;
+    height: 925px;
+}
+.web-header
+{
+position: relative;
+        display: flex;
+            align-items:flex-end;
+    justify-content:space-between;
+    width: 1443px;
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 40px;
+    height: 55px;
+
+    background-color: #F9FCFF;
+}
+.web-bottom
+{
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+    bottom: 0px;
+    width: 1443px;
+    height: 666px;
+    padding: 80px;
+    
+    background-color: #F9FCFF;
+
+}
+.logo-box
+{
+    position: relative;
+    bottom: 0px;
+       width: 42px;
+    height: 38px;
+ 
+}
+.menu-box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 444px;
+    height: 25px;
+
+}
+.search-box
+{
+    display: flex;
+    align-items: center;
+    width: 367px;
+    height: 55px;
+
+}
+.input-searching
+{
+display: flex;
+align-items:center;
+padding-left: 16px;
+padding-bottom: 16px;
+padding-top: 16px;
+padding-right: 80px;
+}
+.img_magnifyingclass
+{   
+    width: 23px;
+    height: 23px;
+}
+.text_search
+{
+    width: 50px;
+    height: 20px;
+    font-size: 16px;
+}
+.text-menu-box2
+{
+    display:flex;
+    align-items:center
+}
+.text-menu-inner
+{
+    color: #1A2434;
+    font-family: Outfit;
+    font-size: 20px;
+    width: 86px;
+    height: 25px;
+}
+.icon-shopping
+{
+    width: 23px;
+    height: 23px;
+}
+.box-left-web-bottom
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 624px;
+    height: 599px;
+
+         align-self:center
+}
+.box-right-web-bottom
+{
+    width: 405px;
+    height: 666px;
+
+         border-radius: 24px;
+         background-color: #E0DFE4;
+         object-fit: cover;
+}
+
+.box-left-inner1
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 624px;
+    height: 360px;
+}
+.box-student
+{   
+    display: flex;
+    width: 624px;
+    height: 96px;
+}
+.info-student
+{
+    display: flex;
+    flex-wrap:wrap;
+    width: 224px;
+    height: 96px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 40px;
+
+}
+.info-student-bottom
+{
+    display: flex;
+    justify-content:flex-end;
+    width: 224px;
+    height: 64px;
+}
+.img_student
+{   
+display: flex;
+justify-content: center;
+    border-radius: 100%;
+    width: 64px ;
+    height: 64px;
+    object-fit: cover;
+    margin-left: -31px;
+       border: 3px solid white; 
+       background-color: #96204D;
+       text-align: center;
+       
+}
+.box-left-inner2
+{
+    display: flex;
+    justify-content: space-between;
+    width: 624px;
+    height: 77px;
+}
+.button-inner
+{
+    width: 304px;
+    height: 77px;
+    border-radius: 16px;
+        font-weight: 700;
+    font-size: 24px;
+}
+.box-left-inner3
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    width: 624px;
+    height: 82px;
+
+}
+.box-brand
+{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap
+}
+.logobrand
+{
+    width: 150px;
+    height: 50px;
+}
+.pop-up-people
+{   
+    position: absolute;
+    top: 117px;
+    left: 980px;
+width: 193px;
+    height: 144px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 2px solid #96204D;
+    margin:0px
+}
+.avatar-pop-up-people
+{
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.pop-up-inner2
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.pop-up-inner3
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Name
+{
+font-weight: 500;
+font-size: 15px;
+font-weight: bold;
+margin: 0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.Title
+{
+font-weight: 300;
+font-size: 14px;
+margin: 0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info-pop-up-people
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 130px; height: 42px
+}

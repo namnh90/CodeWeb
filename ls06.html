@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <p>Câu 1: Tính diện tích và chu vi hình chữ nhật</p>
+
+    <input type="number" id="chieudai" placeholder="Nhập chiều dài" required="true" style="display: inline-block;">
+    <input type="number" id="chieurong" placeholder="Nhập chiều rộng" required="true" style="display: inline-block;">
+    <button class="tinhtoan" onclick="tinhtoan()">Tính toán</button>
+    <input type="number" id="dientich" readonly="true" placeholder="Diện tích là ...">
+    <input type="number" id="chuvi" readonly="true" placeholder="Chu vi là...">
+    <pre>Câu 2: Viết một chương trình JavaScript để chuyển đổi số S (giây) nhập từ người dùng thành dạng giờ-phút-giây.</pre>
+    <input type="number" id="giay" placeholder="Nhập số giây" required="true" style="display:inline-block">
+    <button class="tinhtoan1" onclick="tinhtoan1()">Quy đổi</button>
+    <input type="text" id="quydoi" readonly="true" placeholder="Định dạng sau khi quy đổi là...">
+    <p>Câu 3:Viết một chương trình JavaScript để tính lũy thừa của một số nhập từ người dùng.</p>
+    <input type="number" id="socantinhluythua" placeholder="Nhập số" required="true"
+        style="display:inline-block"><sup><input type="number" id="luythuabac" placeholder="Nhập lũy thừa  "
+            required="true" style="display:inline-block;"></sup>
+    <button class="tinhtoan2" onclick="tinhtoan2()">Tính toán</button>
+    <input type="number" id="luythua" readonly="true" placeholder="Kết quả là...">
+    <p>Câu 4:Tính trung bình của các số bất kỳ</p>
+    <input type="text" id="socantinhtrungbinh" placeholder="Nhập số cách nhau bởi dấu ," required="true"
+        style="display:inline-block;width: 200px;">
+    <button class="tinhtoan3" onclick="tinhtoan3()">Quy đổi</button>
+    <input type="text" id="trungbinh" readonly="true" placeholder="Trung bình của các số trên là...">
+    <p>Câu 5:Viết một chương trình JavaScript để tính khoảng cách giữa hai điểm trong không gian 2D. Yêu cầu người dùng
+        nhập tọa độ (x, y) của hai điểm và in ra khoảng cách</p>
+    <input type="text" id="toadox1" placeholder="Nhập tọa độ x điểm 1 ," required="true"
+        style="display:inline-block;width: 200px;">
+    <input type="text" id="toadoy1" placeholder="Nhập tọa độ y điểm 1 ," required="true"
+        style="display:inline-block;width: 200px;">
+            <input type="text" id="toadox2" placeholder="Nhập tọa độ x điểm 2 ," required="true"
+        style="display:inline-block;width: 200px;">
+    <input type="text" id="toadoy2" placeholder="Nhập tọa độ y điểm 2 ," required="true"
+        style="display:inline-block;width: 200px;">
+    <button class="tinhtoan4" onclick="tinhtoan4()">Tính khoảng cách</button>
+    <input type="number" id="khoangcach" readonly="true" placeholder="Khoảng cách giữa 2 điểm trên là...">
+    <p>Câu 6:Viết một chương trình JavaScript để so sánh ba số nhập từ người dùng và trả về true nếu số lớn nhất là số thứ nhất, ngược lại trả về false</p>
+    <input type="text" id="timsolonnhat" placeholder="Nhập số cách nhau bởi dấu ," required="true"style="display:inline-block;width: 200px;">
+     <button class="tinhtoan5" onclick="tinhtoan5()">Tìm số lớn nhất</button>
+    <input type="boolean" id="solonnhat" readonly="true" placeholder="Số lớn nhất là...">   
+    <p>Câu 7:Viết một chương trình JavaScript để so sánh hai chuỗi nhập từ người dùng và trả về true nếu chúng giống nhau, ngược lại trả về false</p>    
+    <input id="chuoi1" placeholder="Nhập chuỗi đầu tiên ," required="true"style="display:inline-block;width: 200px;">
+    <input id="chuoi2" placeholder="Nhập chuỗi thứ hai ," required="true"style="display:inline-block;width: 200px;">   
+    <button class="tinhtoan6" onclick="tinhtoan6()">Giống nhau hay không ?</button>
+    <input type="boolean" id="giongnhaukhong" readonly="true" placeholder="Hai chuỗi này có giống nhau không ?..." style="width: 300px;">
+    <p>Câu 8:Viết một chương trình JavaScript kiểm tra số dương nhập vào từ bàn phím</p>
+    <input type="text" id="sonhapvao" placeholder="Nhập số" required="true" style="display:inline-block;width: 200px;">
+    <button class="tinhtoan7" onclick="tinhtoan7()">Có phải số dương không ?</button>
+    <input type="boolean" id="duongkhong" readonly="true" placeholder="Có phải số dương không ?..." style="width: 300px;">
+<p>Câu 9:Viết một chương trình JavaScript kiểm tra năm nhuận.
+Gợi ý: Năm nhuận là năm chia hết cho 400 hoặc chia hết cho 4 và không chia hết cho 100</p>
+<input type="text" id="nam" placeholder="Nhập năm" required="true" style="display:inline-block;width: 200px;">
+<button class="tinhtoan8" onclick="tinhtoan8()">Có phải năm nhuận không ?</button>
+<input type="boolean" id="nhuankhong" readonly="true" placeholder="Có phải năm nhuận không ?..." style="width: 300px;">
+
+
+<p>Câu 10:Viết một chương trình JavaScript để so sánh hai thời gian (giờ và phút) nhập từ người dùng và trả về true nếu thời gian thứ nhất muộn hơn thời gian thứ hai, ngược lại trả về false</p>
+<input type="text" id="gio1" placeholder="Nhập giờ 1" required="true" style="display:inline-block;width: 200px;">
+<input type="text" id="phut1" placeholder="Nhập phút 1" required="true" style="display:inline-block;width: 200px;">
+<input type="text" id="gio2" placeholder="Nhập giờ 2" required="true" style="display:inline-block;width: 200px;">
+<input type="text" id="phut2" placeholder="Nhập phút 2" required="true" style="display:inline-block;width: 200px;">
+<button class="tinhtoan9" onclick="tinhtoan9()">So sánh thời gian...</button>
+<input type="text" id="sosanhgio" readonly="true" placeholder="So sánh giờ..." style="width: 300px;">
+
+
+
+
+
+    <script src="ls06.js"></script>
+</body>
+
+</html>
