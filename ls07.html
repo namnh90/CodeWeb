@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <p>Câu 1:Sử dụng vòng lặp, tính tổng các chữ số từ 1  đến 100</p>
+    <p>Câu 1:Sử dụng vòng lặp, tính tổng các chữ số từ 1 đến 100</p>
     <button class="tinhtoan1" onclick="tinhtoan1()">Tính toán</button>
     <input type="number" id="tongso" readonly="true" placeholder="Tổng các số từ 1-100 là ?...">
     <p>Câu 2:Các số từ 0 đến 100, in ra các số chia hết cho 3 và 5</p>
     <button class="tinhtoan2" onclick="tinhtoan2()">Tính toán</button>
     <input type="text" id="printso" readonly="true" placeholder="Các số chia hết cho 3 và 5 là ?...">
-<p>Câu 3:Tính giai thừa của một số nguyên bất kỳ</p>
+    <p>Câu 3:Tính giai thừa của một số nguyên bất kỳ</p>
     <input type="number" id="sodauvao" placeholder="Nhập số nguyên" required="true" style="display: inline-block;">
     <button class="tinhtoan3" onclick="tinhtoan3()">Tính toán</button>
     <input type="text" id="tinhgiaithua" readonly="true" placeholder="Tính giai thừa..." style="width: 1000px;">
-<p>Câu 4:Sử dụng vòng lặp for để in ra bảng cửu chương từ 2 đến 9</p>
-<button class="tinhtoan4" onclick="tinhtoan4()">Bảng cửu chương từ 2 đến 9</button>
-    <textarea type="text" id="bcc" readonly="true" placeholder="Bảng cửu chương từ 2-9 là ?..." style="width: 1000px;">
-
-
+    <p>Câu 4:Sử dụng vòng lặp for để in ra bảng cửu chương từ 2 đến 9</p>
+    <button class="tinhtoan4" onclick="tinhtoan4()">"Bảng cửu chương từ 2 đến 9</button>
+   <textarea type="text" id="bcc" readonly="true" placeholder="Bảng cửu chương từ 2-9 là ?..." style="width: 1000px;"></textarea>
+   <p>Câu 5:Hãy chuyển một số nguyên dương sang dạng nhị phân (gồm các chữ số 0 và 1).
+</p>
+    <input type="number" id="sobichia" placeholder="Nhập số muốn chuyển đổi" required="true" style="display: inline-block;">
+    <button class="tinhtoan5" onclick="tinhtoan5()">Chuyển dạng nhị phân</button>
+   <input type="text" id="nhiphan" readonly="true" placeholder="Dạng nhị phân là..." style="width: 1000px;">
+<p>Câu 6:Sử dụng vòng lặp, thực hiện tính phép tính sau, với n là số nguyên:</p>
+<input type="number" id="socantinh" placeholder="Nhập số nguyên cần tính" required="true" style="display: inline-block;">
+<button class="tinhtoan6" onclick="tinhtoan6()">Tính</button>
+   <input type="number" id="tinhbai6" readonly="true" placeholder="Kết quả là..." style="width: 1000px;">
+<p>Câu 7:Sử dụng vòng lặp, thực hiện tính phép tính sau, với n là số nguyên:</p>
+<input type="number" id="socantinh1" placeholder="Nhập số nguyên cần tính" required="true" style="display: inline-block;">
+<button class="tinhtoan7" onclick="tinhtoan7()">Tính</button>
+   <input type="number" id="tinhbai7" readonly="true" placeholder="Kết quả là..." style="width: 1000px;">
 
     <script src="ls07.js"></script>
 </body>
